@@ -11,7 +11,6 @@ import evaluate
 import mlflow
 
 metrics=evaluate.load('sacrebleu')
-mlflow.set_tracking_uri("http://localhost:5000")
 
 def postprocess(predictions, labels):
     predictions=predictions.cpu().numpy()

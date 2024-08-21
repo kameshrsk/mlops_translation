@@ -1,0 +1,11 @@
+zenml
+zenml[server]
+dvc
+torch
+transformers
+scikit-learn
+evaluate
+sacrebleu
+datasets
+mlflow
+accelerate

@@ -1,0 +1,6 @@
+outs:
+- md5: fda82c4218434ad1718f4646c3c24964
+  size: 22504496
+  isexec: true
+  hash: md5
+  path: translation_data.csv

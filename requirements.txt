@@ -9,3 +9,4 @@ sacrebleu
 datasets
 mlflow
 accelerate
+gradio

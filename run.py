@@ -37,7 +37,7 @@ import mlflow
 )
 
 @click.option(
-    "--learning_rate",
+    "--learning-rate",
     default=1e-5,
     type=click.FLOAT,
     help="Learning Rate for the model to train on"

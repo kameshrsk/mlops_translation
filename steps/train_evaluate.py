@@ -98,7 +98,7 @@ def train_evaluate_model(training_batch:DataLoader, testing_batch:DataLoader, nu
     
         print(f"Epoch: {epoch+1} | BLEU Score: {result['score']:.2f}")
 
-    model_dict={"model": model.cpu(), "score": best_score}
+    model_dict={"model": model.cpu(), "tokenizer":tokenizer, "score": best_score}
 
     if best_score>40:
 
